@@ -9,8 +9,14 @@
   font-size: 12px;
 }
 
+.heading {
+  margin-top: 10px;
+  margin-bottom: 3px;
+}
+
 .signature {
   margin-top: 5px;
+  margin-bottom: 0px;
 }
 
 .cells-actions-signature-holder {
@@ -135,13 +141,10 @@
   .heading {
     color: #FFFFFF;
     font-size: 19px;
-    margin-top: 10px;
-    margin-bottom: 3px;
   }
 
   .signature {
     color: #000000;
-    margin-bottom: 0px;
   }
 
   .cells-actions-signature-holder {
@@ -184,7 +187,6 @@
 
   .cells-action-container .actions {
     flex-direction: row;
-    margin: 0px;
     justify-content: space-evenly;
     box-shadow: none;
   }
